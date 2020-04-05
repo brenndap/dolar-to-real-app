@@ -1,0 +1,111 @@
+.result-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 80vh;
+    margin: 0 auto;
+}
+
+.result-card {
+    background-color: #fff;
+    width: 70%;
+    height: 95%;
+    padding: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid #dcdce6;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.result-card header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.result-card header img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.result-card header .info {
+    width: 250px;
+    height: 39px;
+    background: #FFFFFF;
+    border: 1px solid #DCDCE6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.result-card header .info div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.result-card header .info div strong {
+    color: #7C7C7C;
+}
+
+.result-card header .info div p {
+    color: #0DB14B;
+    font-weight: bold;
+}
+
+.result-card header .info hr {
+    width: 39px;
+    height: 0px;
+    background: #DCDCE6;
+    border: 1px solid #DCDCE6;
+    transform: rotate(90deg);
+}
+
+.result-card .table-container table {
+    width: 80%;
+    margin: 20px auto;
+    height: 166px;
+    background: #FFFFFF;
+    border-spacing: 0;
+}
+
+.result-card .table-container table td {
+    border: 1px solid #DCDCE6;
+}
+
+.result-card .table-container table thead th+th {
+    background: #0DB14B;
+    color: #fff;
+    height: 60px;
+}
+
+.result-card .table-container table thead th+th+th {
+    border-top-right-radius: 8px;
+}
+
+.result-card .table-container table tbody tr td {
+    font-weight: bold;
+}
+
+.result-card .table-container table tbody tr td:first-child {
+    color: #5A5A5A;
+}
+
+.result-card .back {
+    text-decoration: none;
+    color: #5A5A5A;
+    font-weight: 500;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.result-card .back:hover {
+    color: #0DB14B;;
+}
