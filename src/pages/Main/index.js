@@ -12,7 +12,7 @@ export default function Main() {
     const [taxMode, setTaxMode] = useState('')
 
     const history = useHistory()
-    console.log(productValue)
+    
     const handleCalc = e => {
         e.preventDefault()
         history.push('/result', { productValue, stateTax, taxMode })
