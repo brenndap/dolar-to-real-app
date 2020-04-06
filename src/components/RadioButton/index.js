@@ -15,6 +15,7 @@ export default function RadioButton(
     return (
         <label class="container">{label}
             <input
+                required
                 type="radio"
                 checked={checked}
                 name={name}
