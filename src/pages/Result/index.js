@@ -52,7 +52,7 @@ export default function Result() {
                             </tr>
                             <tr>
                                 <td>Total em real</td>
-                                <td>{toBRLFormat(total)}</td>
+                                <td>{toBRLFormat(total - stateTax)}</td>
                                 <td>{toBRLFormat(total)}</td>
                                 
                             </tr>
