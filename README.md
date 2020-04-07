@@ -4,7 +4,7 @@
 
 #
 
-Aplicação para conversão de valores em dólar para real.
+Application for currency conversion (USD - BRL).
 
 ### :tv: Preview 
 
