@@ -6,16 +6,32 @@
 
 Aplicação para conversão de valores em dólar para real.
 
+### :tv: Preview 
+
 <p align="center">
   <img src="./app.gif" width="500">
 </p>
 
 
-### Bibliotecas utilizadas:
+### :books: Used libraries:
+#
 - React.js
 - axios
 - react-router-dom
 - react-text-mask
 - text-mask-addons
 
-Para acessar a aplicação [clique aqui](https://dolartoreal.netlify.com/).
+### :page_facing_up: To access the application
+#
+
+[click here](https://dolartoreal.netlify.com/)
+
+### :computer: Project instructions
+#
+To start the aplication execute insides root diretory: 
+
+`yarn install`
+
+then
+
+`yarn start`
